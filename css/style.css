@@ -171,7 +171,7 @@ ul.social-nav li a:hover{
 @media screen and (max-width: 400px) {
 
 header{
-        height: 21vh;
+        height: 40vh;
     }
   .logo{
       max-width: 200px;
