@@ -94,6 +94,10 @@ a:hover{
 
 }
 
+a.active{
+    opacity: 0.5;
+}
+
 span.category{
   font-size: 14px;
   text-transform: uppercase;
