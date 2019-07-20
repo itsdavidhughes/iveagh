@@ -169,13 +169,34 @@ ul.social-nav li a:hover{
 
 
 @media screen and (max-width: 400px) {
+
+header{
+        height: 21vh;
+    }
   .logo{
       max-width: 200px;
   }
 
+  h2{
+  
+    font-weight: 22px;
+    }
+
+    p.intro{
+        font-size: 18px;
+    }
+
+    p, ul{
+        font-size: 14px;
+    }
+
   ul.main-nav li, ul.social-nav li{
 
       margin: 0em 0.5em;
+  }
+
+  ul.social-nav{
+      padding-top: 4em;
   }
 
 
