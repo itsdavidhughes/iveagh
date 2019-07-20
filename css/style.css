@@ -1,0 +1,168 @@
+ *{
+      margin:0;
+      padding: 0;
+  }
+  
+  body{
+      text-align:center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      background: #fff;
+      box-sizing: border-box;
+      color: #373737;    
+      -webkit-font-smoothing: antialiased;
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+}
+
+@keyframes fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+  i {
+    display: inline-block;
+    font-style: normal;
+    animation: spin 0.25s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 612px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
+    margin-top: 10%;
+}
+
+
+.logo{
+    max-width: 360px;
+    margin: 5% 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 3em;
+
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+p.intro{
+    font-size: 22px;
+}
+
+ul{
+    margin-bottom: 0em;
+    list-style-type: none;
+}
+
+li{
+   margin-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 2px solid #ED273A;
+    padding-bottom: 1px;
+    color: #373737;
+}
+
+a:hover{
+  
+    border-bottom: none;
+    color: #000;
+  
+}
+
+span.category{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    display: block;
+    text-align: center;
+}
+
+header{
+    background: #EC3733;
+    height: 40vh;
+}
+
+.post{
+    margin-bottom: 3em;
+
+}
+/*
+span.category::before{
+   
+    content: "";
+    display: block;
+    height: 6em;
+    vertical-align: bottom;
+    width: 20%;
+    margin: 0 auto;
+    border-top: 1px solid #373737;
+}
+
+    
+*/
+
+ul.main-nav{
+    padding-top: 2em;
+}
+
+ul.social-nav {
+    padding-top: 8em;
+}
+
+ul.main-nav li, ul.social-nav li{
+    display: inline;
+    margin: 0em 1em;
+    
+}
+
+ul.main-nav li a{
+    margin: 0.5em;
+    font-weight: 600;
+    color: white; 
+    border-bottom: none;
+    margin: 0.5em;
+    text-transform: uppercase;
+}
+
+ul.main-nav li a:hover{
+    border-bottom: 2px solid #373737;
+    padding-bottom: 1px;
+}
+
+img.facebook, img.instagram, img.twitter{
+    width: 20px;
+
+}
+
+ul.social-nav li a{
+    border-bottom: none;
+}
+
+ul.social-nav li a:hover{
+    opacity: 0.5;
+}
